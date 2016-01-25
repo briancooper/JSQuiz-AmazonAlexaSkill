@@ -20,7 +20,7 @@ var questions = [
         ]
     },
     { //2
-        "What function can you use to print a current webpage in javaScript?": [
+        "What function can you use to print a current web page in javaScript?": [
             "window dot print",
             "print dot this",
             "print",
@@ -60,7 +60,7 @@ var questions = [
         ]
     },
     { //7
-        "Which event occurs when a user moves the mouse over an HTML element?": [
+        "Which event occurs when a user moves the mouse over an H T M L element?": [
             "on mouse hover",
             "on click",
             "on mouse out",
@@ -68,7 +68,7 @@ var questions = [
         ]
     },
     { //8
-        "Which event occurs when a user moves the mouse over an HTML element?": [
+        "Which event occurs when a user moves the mouse over an H T M L element?": [
             "on mouse out",
             "on click",
             "on mouse hover",
@@ -133,17 +133,17 @@ var questions = [
     },
     { //16 *
         "What technology allows javascript to send and retrieve data from a server asynchronously?": [
-            "AJAX",
-            "SQL",
+            "A Jacks", //AJAX
+            "S Q L",
             "Web Forms",
             "DOM"
         ]
     },
     { //17
-        "What is the primary data format used for asynchronous browser/server communication?": [
-            "JSON",
-            "XML",
-            "CSV",
+        "What is the primary data format used for asynchronous browser server communication?": [
+            "J SON",
+            "X M L",
+            "C S V",
             "POX"
         ]
     },
@@ -156,7 +156,7 @@ var questions = [
         ]
     },
     { //19
-        "What programming interface for HTML, XML, and SVG provides a structured representation the document and defines how programs can access and change the structure of that document?": [
+        "What programming interface for H T M L, X M L, and S V G provides a structured representation the document and defines how programs can access and change the structure of that document?": [
             "DOM",
             "function",
             "callback",
@@ -245,7 +245,7 @@ var questions = [
     },
     { //30
         "Which built-in method combines the text of two strings and returns a new string?": [
-            "concat",
+            "con cat",
             "push",
             "reverse",
             "sort"
@@ -254,7 +254,7 @@ var questions = [
     { //31
         "Which built-in method calls a function for each element in the array?": [
             "for each",
-            "concat",
+            "con cat",
             "reverse",
             "sort"
         ]
@@ -262,7 +262,7 @@ var questions = [
     { //32
         "Which built-in method calls a function for each element in the array?": [
             "sub string", //substr()
-            "concat",
+            "con cat",
             "reverse",
             "sort"
         ]
@@ -270,7 +270,7 @@ var questions = [
     { //33
         "Which built-in method calls a function for each element in the array?": [
             "to lower case", //toLowerCase()
-            "concat",
+            "con cat",
             "reverse",
             "sort"
         ]
@@ -278,7 +278,7 @@ var questions = [
     { //34
         "Which built-in method calls a function for each element in the array?": [
             "to upper case", //toUpperCase()
-            "concat",
+            "con cat",
             "reverse",
             "sort"
         ]
@@ -286,7 +286,7 @@ var questions = [
     { //35
         "Which built-in method calls a function for each element in the array?": [
             "to string", //toString()
-            "concat",
+            "con cat",
             "reverse",
             "sort"
         ]
@@ -296,7 +296,7 @@ var questions = [
             "search", //search()
             "match",
             "replace",
-            "concat"
+            "con cat"
         ]
     },
     { //37
@@ -308,17 +308,17 @@ var questions = [
         ]
     },
     { //38
-        "Which function of a string object looks for a match between a regular expression and a specified string?": [
-            "search", //search()
-            "match",
-            "replace",
-            "concat"
+        "Which module format allows for both modules and dependencies to be asynchronously loaded?": [
+            "a m d",
+            "common J S",
+            "factory",
+            "Angular"
         ]
     },
     { //39
-        "What technique used for backwards compatibility in browsers will intercept api calls and implement a new api , thus creating an abstraction layer between the caller and the target?": [
+        "What technique used for backwards compatibility in browsers will intercept a p i calls and implement a new a p i , thus creating an abstraction layer between the caller and the target?": [
             "shim",
-            "polyfill",
+            "poly fill",
             "fall back",
             "chrome"
         ]
@@ -331,44 +331,44 @@ var questions = [
             "concat"
         ]
     },
-    { //41
-        "Which function of a string object looks for a match between a regular expression and a specified string?": [
-            "search", //search()
-            "match",
-            "replace",
-            "concat"
+    { //41 *
+        "Which design pattern restricts instantiation of a class to a single object?": [
+            "singleton",
+            "observer",
+            "mediator",
+            "module"
         ]
     },
     { //42
-        "Which function of a string object looks for a match between a regular expression and a specified string?": [
-            "search", //search()
-            "match",
-            "replace",
-            "concat"
+        "Which design pattern creates objects based on a template of an existing object through cloning?": [
+            "prototype",
+            "singleton",
+            "observer",
+            "mediator"
         ]
     },
     { //43
-        "Which function of a string object looks for a match between a regular expression and a specified string?": [
-            "search", //search()
-            "match",
-            "replace",
-            "concat"
+        "Which design pattern provides a generic interface for creating objects, where we can specify the type of object we wish to be created?": [
+            "factory",
+            "singleton",
+            "prototype",
+            "module"
         ]
     },
     { //44
-        "Which function of a string object looks for a match between a regular expression and a specified string?": [
-            "search", //search()
-            "match",
-            "replace",
-            "concat"
+        "Which design pattern has an object, known as a subject, and maintains a list of objects depending on it, automatically notifying them of any changes to state?": [
+            "observer",
+            "factory",
+            "module",
+            "mediator"
         ]
     },
     { //45
-        "Which function of a string object looks for a match between a regular expression and a specified string?": [
-            "search", //search()
-            "match",
-            "replace",
-            "concat"
+        "Which design pattern is a special method used to initialize a newly created object once memory has been allocated for it?": [
+            "constructor",
+            "observer",
+            "factory",
+            "singleton"
         ]
     },
     { //46
@@ -380,37 +380,37 @@ var questions = [
         ]
     },
     { //47
-        "Which function of a string object looks for a match between a regular expression and a specified string?": [
-            "search", //search()
-            "match",
-            "replace",
-            "concat"
+        "Which design pattern has classes which offer functionality that can be easily inherited by a sub-class or group of sub-classes for the purpose of function re-use?": [
+            "mixin",
+            "module",
+            "factory",
+            "reuse"
         ]
     },
     { //48
-        "Which function of a string object looks for a match between a regular expression and a specified string?": [
-            "search", //search()
-            "match",
-            "replace",
-            "concat"
+        "Which design pattern aims to encapsulate method invocation, requests or operations into a single object and gives us the ability to both parameterize and pass method calls around that can be executed at our discretion?": [
+            "command",
+            "singleton",
+            "mixin",
+            "factory"
         ]
     },
     { //49
-        "Which function of a string object looks for a match between a regular expression and a specified string?": [
-            "search", //search()
-            "match",
-            "replace",
-            "concat"
+        "Which architectural design pattern  encourages improved application organization through a separation of concerns. It enforces the isolation of business data from user interfaces, with a third component traditionally managing logic and user-input?": [
+            "M V C",
+            "M V V M",
+            "M V P",
+            "Mustache"
         ]
     },
     { //50
-        "Which function of a string object looks for a match between a regular expression and a specified string?": [
-            "search", //search()
-            "match",
-            "replace",
-            "concat"
+        "What is the name of the solution that can be repeated to address commonly occurring problem in software design?": [
+            "design pattern",
+            "loop",
+            "closure",
+            "testing"
         ]
-    },
+    }
 ];
 
 // Route the incoming request based on type (LaunchRequest, IntentRequest,
