@@ -373,7 +373,7 @@ var questions = [
     },
     { //46
         "Which function of a string object looks for a match between a regular expression and a specified string?": [
-            "search", 
+            "search",
             "match",
             "replace",
             "concat"
@@ -419,7 +419,7 @@ exports.handler = function (event, context) {
     try {
         console.log("event.session.application.applicationId=" + event.session.application.applicationId);
 
-     if (event.session.application.applicationId !== "arn:aws:lambda:us-east-1:748224983427:function:JavascriptInterviewQuestions") {
+     if (event.session.application.applicationId !== "amzn1.echo-sdk-ams.app.05b22e33-4166-4735-a790-7c65bff2275a") {
          context.fail("Invalid Application ID");
       }
 
