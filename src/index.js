@@ -68,7 +68,7 @@ var questions = [
         ]
     },
     { //8
-        "Which event occurs when a user moves the mouse over an H T M L element?": [
+        "Which event occurs when a user moves the mouse off an H T M L element?": [
             "on mouse out",
             "on click",
             "on mouse hover",
@@ -260,7 +260,7 @@ var questions = [
         ]
     },
     { //32
-        "Which built-in method calls a function for each element in the array?": [
+        "Which built-in method returns the characters in a string beginning at the specified location?": [
             "sub string", //substr()
             "con cat",
             "reverse",
@@ -268,7 +268,7 @@ var questions = [
         ]
     },
     { //33
-        "Which built-in method calls a function for each element in the array?": [
+        "Which built-in method returns the calling string value converted to lower case?": [
             "to lower case", //toLowerCase()
             "con cat",
             "reverse",
@@ -276,7 +276,7 @@ var questions = [
         ]
     },
     { //34
-        "Which built-in method calls a function for each element in the array?": [
+        "Which built-in method returns the calling string value converted to upper case?": [
             "to upper case", //toUpperCase()
             "con cat",
             "reverse",
@@ -284,7 +284,7 @@ var questions = [
         ]
     },
     { //35
-        "Which built-in method calls a function for each element in the array?": [
+        "Which built-in method returns the string representation of a value?": [
             "to string", //toString()
             "con cat",
             "reverse",
@@ -410,6 +410,14 @@ var questions = [
             "closure",
             "testing"
         ]
+    },
+    { //51
+        "JavaScript was created by?": [
+            "Brendan Eich",
+            "Robot Overlords",
+            "Kanye West",
+            "Internet Explorer"
+        ]
     }
 ];
 
@@ -512,7 +520,7 @@ function onSessionEnded(sessionEndedRequest, session) {
 // ------- Skill specific business logic -------
 
 var ANSWER_COUNT = 4,
-    GAME_LENGTH = 5;
+    GAME_LENGTH = 10;
 
 function getWelcomeResponse(callback) {
     var sessionAttributes = {},
